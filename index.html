@@ -4,28 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+
     <title>Awesome</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-container">
             <!-- nav bar with logo in the left corner -->
-            <nav></nav>
+            <nav>
+                <p id="logo">Header Logo</p>
+                <ul class="secondary-text">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </nav>
             <!-- hero area -->
-            <div>
-                <div>
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                    <button>Sign up</button>
+            <div class="hero-container">
+                <div id="hero-intro">
+                    <h1 id="hero-text">This website is awesome</h1>
+                    <p class="secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button id="header-button" class="sign-up">Sign up</button>
                 </div>
-                <div>
+                <div id="hero-image">
                     <!-- img -->
-                    this is a placeholder for an image
+                    <p>this is a placeholder for an image</p>
                 </div>
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <section class="random-info-section"></section>
+        <section class="quote-section"></section>
+        <section class="action-section"></section>
+    </main>
     <footer></footer>
 </body>
 </html>
