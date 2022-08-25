@@ -86,8 +86,43 @@ header nav ul {
     margin: 0;
 }
 
-/* .random-info-section */
+/* #random-info-section 
+*/
 
-/* .quote-section */
+
+/* quote */
+#quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+#quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+#thor {
+    text-align: right;
+    font-weight: bold;
+    width: 80%;
+    margin: 0;
+}
 
 /* .action-section */
+
+/* footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
