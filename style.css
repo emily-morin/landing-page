@@ -99,7 +99,7 @@ header nav ul {
     align-items: center;
 }
 .quote-container {
-    width: 60%;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +116,7 @@ header nav ul {
 #thor {
     text-align: right;
     font-weight: bold;
-    width: 80%;
+    width: 90%;
     margin: 0;
 }
 
