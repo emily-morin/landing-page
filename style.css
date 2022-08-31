@@ -52,6 +52,15 @@ header nav ul {
     padding: 0;
 }
 
+header nav ul li a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
 .hero-container {
     display: flex;
     justify-content: space-between;
