@@ -10,6 +10,12 @@ header, footer {
     color: #f9faf8;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
@@ -73,7 +79,7 @@ header nav ul li a:hover {
 }
 
 #hero-intro p {
-    margin: 0 0 10px 0;
+    margin: 10px 0 20px;
 }
 
 #hero-text {
@@ -84,17 +90,15 @@ header nav ul li a:hover {
 
 #hero-image {
     width: 50%;
-    background-color: slategray;
     text-align: center;
     height: 240px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 #hero-image p {
     margin: 0;
-    /* display: none; */
+    display: none;
 }
 
 /* random info */
