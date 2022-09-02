@@ -94,6 +94,7 @@ header nav ul li a:hover {
 
 #hero-image p {
     margin: 0;
+    /* display: none; */
 }
 
 /* random info */
