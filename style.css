@@ -35,7 +35,7 @@ img {
 
 /* header styles */
 .header-container {
-    margin: 0 200px;
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
@@ -48,6 +48,7 @@ img {
 
 header nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -79,13 +80,14 @@ header nav ul li a:hover {
 
 .hero-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin: 40px 0;
 }
 
 #hero-intro {
-    width: 45%;
+    margin-bottom: 20px;
 }
 
 #hero-intro p {
@@ -99,7 +101,6 @@ header nav ul li a:hover {
 }
 
 #hero-image {
-    width: 50%;
     text-align: center;
     height: 240px;
     display: flex;
@@ -230,8 +231,27 @@ footer {
 
 /*** TABLET ***/
 /* @media only screen and (min-width: 768px) {} */
+/* header nav {
+    flex-direction: row} 
+    
+    .hero-container {
+        flex-direction: row;}
 
+    #hero-intro {
+    width: 45%;}
+
+    #hero-image {
+        width: 50%;}
+
+    */
 
 
 /*** DESKTOP ***/
 /* @media only screen and (min-width: 1200px) {} */
+/* .header-container {
+margin: 0 200px; } 
+
+.hero-container {
+    margin: 100px 0; }
+
+ */
