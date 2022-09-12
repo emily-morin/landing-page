@@ -162,37 +162,35 @@ header nav ul li a:hover {
     align-items: center;
 }
 .quote-container {
-    width: 790px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 60px 20px;
     color:#1f2937;
 }
 #quote {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 300;
     font-style: italic;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 #thor {
     text-align: right;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     width: 90%;
     margin: 0;
 }
 
 /* call to action */
 #action-section {
-    padding: 80px;
+    padding: 40px;
 }
 
 .action-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -201,22 +199,22 @@ header nav ul li a:hover {
     background-color: #3882f6;
     color:#f9faf8;
     border-radius: 8px;
-    width: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 80px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 #action-text h3 {
     font-size: 24px;
     font-weight: 600;
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
 #action-text p {
-    margin: 0;
+    margin: 0 0 20px 0;
     color:#e5e7eb;
 }
 
@@ -257,6 +255,25 @@ footer {
 
     .figure {
         margin-bottom: 0;}
+    
+    .quote-container {
+        width: ___}
+
+    #quote {
+        margin: 0;}
+
+    #action-section {
+    padding: 80px;}
+
+    .action-container {
+    flex-direction: column;}
+
+    #action-content {
+        width: 80%;
+        padding: 50px 80px;}
+    
+    #action-text h3, #action-text p {
+        margin: 0}
 
     */
 
@@ -268,5 +285,8 @@ margin: 0 200px; }
 
 .hero-container {
     margin: 100px 0; }
+
+.quote-container {
+        width: 790px;}
 
  */
