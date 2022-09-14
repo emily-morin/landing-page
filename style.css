@@ -240,6 +240,7 @@ footer {
 
     #hero-intro {
     width: 45%;
+    margin-bottom: 0;
     }
 
     #hero-image {
@@ -274,14 +275,14 @@ footer {
     }
 
     #action-section {
-    padding: 80px;
+    padding: 60px;
     }
 
     #action-content {
         flex-direction: row;
         justify-content: space-between;
-        width: 80%;
-        padding: 50px 80px;
+        gap: 40px;
+        padding: 40px;
     }
     
     #action-text h3, #action-text p {
@@ -310,4 +311,13 @@ footer {
     .quote-container {
         width: 790px;
         }
+
+    #action-section {
+        padding: 80px;
+    }
+
+    #action-content {
+        width: 80%;
+        padding: 50px 80px;
+    }
 }
