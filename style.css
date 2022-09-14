@@ -86,7 +86,7 @@ header nav ul li a:hover {
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 40px 0;
 }
@@ -96,13 +96,13 @@ header nav ul li a:hover {
 }
 
 #hero-intro p {
-    margin: 10px 0 20px;
+    margin: 10px 0;
 }
 
 #hero-text {
     font-size: 48px;
     font-weight: 900;
-    margin: 0;
+    margin: 0 0 20px;
 }
 
 /* #hero-image {
@@ -116,7 +116,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 40px 0;
 }
 
 #random-info-section h2 {
@@ -124,7 +124,7 @@ header nav ul li a:hover {
     font-weight: 900;
     text-align: center;
     color: #1f2937;
-    margin: 40px 0;
+    margin: 0 0 40px;
 }
 
 #figure-container {
@@ -166,11 +166,11 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 20px;
+    padding: 40px;
     color:#1f2937;
 }
 #quote {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 300;
     font-style: italic;
     margin: 0 0 20px 0;
@@ -243,17 +243,12 @@ footer {
     }
 
     #hero-intro {
-    width: 45%;
     margin-bottom: 0;
     }
 
     #hero-image {
         justify-content: flex-end;
         width: 50%;
-    }
-
-    .random-info-container {
-        padding-bottom: 40px;
     }
     
     #random-info-section h2 {
@@ -275,6 +270,7 @@ footer {
     }
 
     #quote {
+        font-size: 32px;
         margin: 0;
     }
 
@@ -301,11 +297,7 @@ footer {
     } 
 
     .hero-container {
-        margin: 100px 0;
-    }
-
-    .random-info-container {
-        padding-bottom: 100px;
+        margin: 40px 0;
     }
 
     #figure-container {
