@@ -10,11 +10,11 @@ body {
 header {
     background: url(./pexels-eberhard-grossgasteiger.png) center no-repeat;
     min-height: 150vh;
-    color:#1f2937;
+    color:#1f3740;
 }
 
 footer {
-    background-color: #1f2937;
+    background-color: #1f3740;
     color: #f9faf8;
 }
 
@@ -31,9 +31,9 @@ footer {
 .sign-up {
     padding: 8px 32px;
     border-radius: 8px;
-    background-color: #3882f6;
+    background-color: #f2d3d0;
     border: none;
-    color:#f9faf8;
+    color:#1f3740;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
@@ -75,7 +75,7 @@ header nav ul {
 flex-direction: column; */
 
 header nav ul li a {
-    color:#1f2937;
+    color:#1f3740;
     text-decoration: none;
 }
 
@@ -92,11 +92,15 @@ header nav ul li a:hover {
 }
 
 #hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 #hero-intro p {
     margin: 10px 0;
+    width: 90%;
 }
 
 #hero-text {
@@ -104,12 +108,6 @@ header nav ul li a:hover {
     font-weight: 900;
     margin: 0 0 20px;
 }
-
-/* #hero-image {
-    text-align: center;
-    height: 240px;
-    display: flex;
-} */
 
 /* random info */
 .random-info-container {
@@ -123,7 +121,7 @@ header nav ul li a:hover {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    color: #1f2937;
+    color: #1f3740;
     margin: 0 0 40px;
 }
 
@@ -144,19 +142,19 @@ header nav ul li a:hover {
 .square-img {
     height: 160px;
     width: 160px;
-    border: solid 4px #3882f6;
+    border: solid 4px #436c73;
     border-radius: 16px;
 }
 
 .img-caption {
     width: 90%;
     text-align: center;
-    color: #1f2937;
+    color: #1f3740;
 }
 
 /* quote */
 #quote-section {
-    background-color: #e5e7eb;
+    background-color: #D0ECF2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +165,7 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    color:#1f2937;
+    color:#1f3740;
 }
 #quote {
     font-size: 28px;
@@ -196,7 +194,7 @@ header nav ul li a:hover {
 }
 
 #action-content {
-    background-color: #3882f6;
+    background-color: #436c73;
     color:#f9faf8;
     border-radius: 8px;
     display: flex;
@@ -216,10 +214,6 @@ header nav ul li a:hover {
 #action-text p {
     margin: 0 0 20px 0;
     color:#e5e7eb;
-}
-
-#action-sign-up {
-    border: solid 2px #f9faf8;
 }
 
 /* footer */
