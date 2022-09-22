@@ -4,12 +4,12 @@
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    background: url(./pexels-eberhard-grossgasteiger.png) no-repeat;
     margin: 0;
 }
 
 header {
-    background: url(./pexels-eberhard-grossgasteiger.png) center no-repeat;
-    min-height: 150vh;
+    /* min-height: 150vh; */
     color:#1f3740;
 }
 
